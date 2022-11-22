@@ -1,0 +1,34 @@
+class Human:
+    def __init__(self, name, surname, age, Òity):
+        self._name = name 
+        self._surname = surname 
+        self._age = age 
+        self._city = Òity 
+        
+    def display (self):
+        print("Name:", self._name, "\nSurname:", self._surname, "\nAge:", self._age, "\n—ity:", self._city)
+
+class Student (Human):
+    def __init__(self, name, surname, age, Òity, ball, number):
+        self._ball = ball
+        self._number = number
+        self._name = name 
+        self._surname = surname 
+        self._age = age 
+        self._city = Òity 
+    
+    def display (self):
+        print("Name:", self._name, "\nSurname:", self._surname, "\nAge:", self._age, "\n—ity:", self._city, "\nBall:",Student_ball, "\nNumber", self._number)
+
+    
+Student_ball = {
+    "Biologi": 2.78,
+    "History": 1.22,
+    "Fizra": 5.00
+}
+
+Evgeni = Human("Evgeni", "Pupkin", 18, "ST_Oskol")
+Nikolai = Human("Nikolai", "Yarovoi", 16, "ST_Oskol")
+Sergei = Student("Sergei", "Matvienko", 18, "ST_Oskol",Student_ball , "2 Kurs" )
+
+Sergei.display()
