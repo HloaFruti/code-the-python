@@ -1,3 +1,6 @@
+//Я сменился НД
+//BD
+
 class Human:
     def __init__(self, name, surname, age, сity):
         self._name = name 
